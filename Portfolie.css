@@ -1,0 +1,177 @@
+body {
+    background-color: #062451;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #031a3d;
+    border-bottom: 1px solid #c9a24a;
+    border-top: 1px solid #c9a24a;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin-top: 0;
+    color: white;
+}
+
+.header-title {
+    display: flex;
+    font-family: "Times New Roman", Georgia, serif;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logo {
+    color: #c9a24a;
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: -0.15rem;
+}
+
+nav {
+    display: flex;
+    gap: 2.5rem;
+    margin-left: auto;
+}
+
+nav a {
+    color: #c9a24a;
+    font-family: "Times New Roman", Georgia, serif;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #c9a24a;
+}
+
+h2 {
+    color: #c9a24a;
+}
+
+#about img {
+    border: 2px solid #c9a24a;
+}
+
+#education a{
+    color: #c9a24a;
+    text-decoration: none;
+}
+
+#education a:hover{
+    color: white;
+}
+
+#work a{
+    color: #c9a24a;
+    text-decoration: none;
+}
+
+#work a:hover{
+    color: white;
+}
+
+.linkedin-logo {
+    width: 2rem;
+    height: auto;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.education img {
+    width: 2.5rem;
+    height: auto;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.work img {
+    width: 2.5rem;
+    height: auto;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skills img {
+    width: 2.5rem;
+    height: auto;
+}
+
+footer {
+    background-color: #031a3d;
+    padding: 2rem 0;
+}
+
+footer .footer {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer h2 {
+    color: #c9a24a;
+}
+
+.cc {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+}
+
+.cc img {
+    width: 2.5rem;
+    height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
